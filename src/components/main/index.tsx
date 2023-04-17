@@ -1,3 +1,4 @@
+import { Container } from "../Container";
 import { BestSellers } from "./sections/BestSellers";
 import { Consoles } from "./sections/Consoles";
 import { Games } from "./sections/Games";
@@ -5,9 +6,11 @@ import { Games } from "./sections/Games";
 export function Main() {
   return (
     <main>
-      <Consoles />
-      <Games />
-      <BestSellers />
+      <Container>
+        <Consoles />
+        <Games />
+        <BestSellers />
+      </Container>    
     </main>
   );
 }
