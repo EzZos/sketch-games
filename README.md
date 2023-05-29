@@ -1,6 +1,6 @@
 # 🎮 Sketch games 🎮
 
-Projeto de um site ilustrando um site de venda de games e consoles.
+Projeto ilustrando um site de venda de games e consoles.
 
 ## Tecnologias
 
